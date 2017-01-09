@@ -1,0 +1,137 @@
+<extend name="Base:index" />
+<block name="css">
+    <css href="__PUBLIC__/ext/uploadify/uploadify.css" />
+    <style>
+        #fileField{height: 100px!important;}
+        .shangchuanBtn{width: 100px!important; height: 100px!important; line-height: 100px!important; background: white; border: 1px dashed #aaa; border-radius: 0; font-size: 30px; font-weight: bold; color: #666;}
+        .shangchuanBtn:hover{background: #f5f5f5!important;}
+    </style>
+</block>
+<!-- page heading start-->
+<block name="content">
+    <div class="page-heading">
+        <h3>
+            管理首页
+        </h3>
+        <ul class="breadcrumb">
+            <li>
+                <a href="#">管理后台</a>
+            </li>
+            <li> 商品管理 </li>
+            <li class="active"> 商品相册 </li>
+        </ul>
+    </div>
+    <!-- page heading end-->
+
+    <!--body wrapper start-->
+    <section class="wrapper">
+        <!-- page start-->
+
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        商品相册
+                    </header>
+                    <div class="panel-body">
+                        <form role="form" action="{:U('pics')}" method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <div class="file-box">
+                                    <label>添加图片</label>
+                                    <input type="file" name="file" class="file" id="fileField"  />
+                                </div>
+                            </div>
+                            <input type="hidden" name="goods_id" value="{$id}"/>
+                            <div id="divPreview"></div>
+                            <button type="submit">上传</button>
+                        </form>
+                        <hr />
+                        <div class="row imgBox">
+                            <volist name="data" id="data">
+                                <div style="float: left;">
+                                    <div>
+                                        <img src="{$data.path}" alt="加载失败"  style="width: 200px; height: 200px" />
+                                        <a data-href="{:U('pic_delete', ['id' => $data['id'],'goods_id' => $data['goods_id']])}"  data-toggle="modal" data-target="#myModal" class="btn btn-danger btn-xs deleteBtn">删除</a>
+                                        <!--<input type="hidden" name="goods_id" value="{$data.id}"/>-->
+                                    </div>
+                                </div>
+                            </volist>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">提示：Notice!</h4>
+                    </div>
+                    <div class="modal-body">
+                        亲！你确认要删除吗？删除了没有办法恢复哟~么么哒！
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">好的，我不删除了</button>
+                        <a href="{:U('pic_delete', ['id' => $data['id']])}" id="deleteTrue" class="btn btn-primary">滚！狠心删除</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</block>
+
+<block name="extra">
+    <!--引入uploadify-->
+
+    <script src="__UPLOADIFY__/jquery.uploadify.min.js"></script>
+    <script src="__LAYER__/layer.js"></script>
+    <script>
+        $(function() {
+            var _id = '{$goods["id"]}';
+            $("#fileField").uploadify({
+                width: 100,
+                height: 100,
+                // 加载FLASH文件
+                swf:'__UPLOADIFY__/uploadify.swf',
+                // 指定处理文件上传的后台地址
+                uploader      : '{:U("Upload/upload")}',
+                // 按钮样式
+                buttonClass: 'shangchuanBtn',
+                // 按钮文本内容
+                buttonText: '+',
+                // 最大允许上传的文件大小，单位： KB
+                fileSizeLimit: 2048,
+                // 允许上传的文件后缀
+                fileTypeExts: '*.jpg;*.png;*.gif',
+                // 在上传的同时传递给后台的参数（POST）
+                formData: {'goods_id': _id}, // REQUEST                // 关闭多文件上传 默认为true
+                multi: true,
+                // 上传成功！
+                onUploadSuccess: function(file, data, response) {
+                    // file 指的是本地的文件信息
+                    // data 服务器返回的数据
+                    // response 响应信息
+                    data = $.parseJSON(data); // 将JSON字符串转换成JSON格式 JS里的对象
+                    if(data.status == 0){
+                        // 上传失败！
+                        layer.msg(data.msg, {
+                            time: 10000
+                        });
+                    }else{
+                        layer.msg(data.msg);
+                        // 上传成功
+                        $("#divPreview").append("<img src="+data.url+" style='max-width: 100px;max-height: 100px'/>");
+                        $("#divPreview").append("<input type='hidden' name='path[]' value='" + data.url + "'/>");
+                    }
+                }
+            });
+            $(function(){
+                $('.deleteBtn').click(function(){
+                    var _link = $(this).attr('data-href');
+                    $('#deleteTrue').attr('href', _link);
+                })
+            });
+        });
+    </script>
+</block>

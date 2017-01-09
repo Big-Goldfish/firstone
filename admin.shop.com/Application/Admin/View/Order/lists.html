@@ -1,0 +1,48 @@
+<extend name="Base:index"/>
+<block name="content">
+    <div class="wrapper">
+    <div class="row">
+        <div class="col-sm-12">
+            <section class="panel">
+                <header class="panel-heading">
+                    XXX列表
+                            <span class="tools pull-right">
+                                <a href="{:U(add)}" class="btn btn-success btn-link">新增</a>
+                            </span>
+                </header>
+                <div class="panel-body">
+                    <div class="adv-table">
+                        <table  class="display table table-bordered table-striped" id="dynamic-table">
+                            <thead>
+                            <tr>
+                                <th>商品名称</th>
+                                <th>logo</th>
+                                <th>商品描述</th>
+                                <th class="hidden-phone">操作</th>
+
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="rows" id="row">
+                                <tr class="gradeX">
+                                    <td>{$row.name}</td>
+                                    <td><img src="{$row.logo}" width="30px" height="20px" alt=""></td>
+                                    <td>{$row.intro}</td>
+                                    <td class="center hidden-phone">
+                                        <switch name="row.status">
+                                            <case value="待支付">{$row.status}</case>
+                                            <default /><a href="{:U('edit',[id=>$row['id']])}">{$row.status}</a></switch>
+
+                                    </td>
+                                </tr>
+                            </volist>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+</block>

@@ -1,0 +1,48 @@
+<extend name="Base:index"/>
+<block name="content">
+
+    <div class="row">
+        <div class="col-sm-12">
+            <section class="panel">
+                <header class="panel-heading">
+                    XXX列表
+                            <span class="tools pull-right">
+                                <a href="{:U(add)}" class="btn btn-success btn-link">新增</a>
+                            </span>
+                </header>
+                <div class="panel-body">
+                    <div class="adv-table">
+                        <table  class="display table table-bordered table-striped" id="dynamic-table">
+                            <thead>
+                            <tr>
+                                <th>商品活动编号</th>
+                                <th>活动ID</th>
+                                <th>活动描述</th>
+                                <th class="hidden-phone">操作</th>
+
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="rows" id="row">
+                                <tr class="gradeX">
+                                    <td>{$row.id}</td>
+                                    <td>{$row.prom_type}</td>
+
+                                    <td>{$row.intro}</td>
+                                    <td class="center hidden-phone">
+                                        <a href="{:U('edit',[id=>$row['id']])}">编辑</a>
+                                        |
+                                        <a href="{:U('remove',[id=>$row['id']])}">删除</a>
+                                    </td>
+
+                                </tr>
+                            </volist>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    </block>

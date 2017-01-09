@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="http://www.itsource.cn/upload/operationableFile/logo_small.jpg " />
+	<title>源码时代</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="/Public/css/basic.css" rel="stylesheet" type="text/css">
+	<link href="/Public/css/index.css" rel="stylesheet" type="text/css">
+	<link href="/Public/css/unslider.css" rel="stylesheet" type="text/css">
+	<link href="/Public/css/unslider-dots.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="/Public/js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="/Public/js/unslider-min.js"></script>
+</head>
+
+<body>
+<!-- header -->
+<div class="panel header">
+	<a href="index.html"><img class="logo" src="/Public/img/logo_2.png"></a>
+	<div class="top_menu">
+		<p class="at_login">
+			<a href="index.html">首页</a><span class="spliter">|</span>
+			<a onclick="history.go(-1)">返回</a>
+		</p>
+		<div class="search_bar">
+			<input class="search_bar-input" type="text" placeholder="查找你需要的茶叶" />
+			<div style="position: relative; display: inline;">
+				<ul class="auto_wrapper">
+					<li>数据一</li>
+					<li>数据二</li>
+					<li>数据三</li>
+					<li>数据四</li>
+					<li>数据五</li>
+				</ul>
+			</div>
+			<button class="search_bar-submit" type="search"><img src="/Public/img/syss.png">搜索</button>
+			<button class="cart" type="button" onclick="javascript:window.location.href='/Cart/cartList.html'"><img src="/Public/img/sygw.png">　购物车</button>
+		</div>
+		<p class="not_login">
+
+
+
+				<span id="username"></span><a href="/Login/login_out.html" id="logout">退出</a>
+
+			<a href="/Login/index.html" id="login">登录</a><span class="spliter">|</span>
+
+
+			<a href="/Member/index.html">注册</a><span class="spliter">|</span>
+			<a href="/Ucenter/index.html">用户中心</a>
+		</p>
+		<p class="is_login"><span class="uname" name="uname">源码时代</span><span class="greetings">下午好~</span>
+
+	</p>
+	</div>
+	<p class="menu">
+		<a href="/Index/index.html">首页</a><span class="spliter">|</span>
+		<a href="/Index/brand/id/1.html">朴茶区</a><span class="spliter">|</span><a href="/Index/brand/id/2.html">有机区</a><span class="spliter">|</span><a href="/Index/brand/id/3.html">老茶区</a><span class="spliter">|</span><a href="/Index/brand/id/4.html">自饮区</a><span class="spliter">|</span><a href="/Index/brand/id/5.html">老牌区</a><span class="spliter">|</span>	</p>
+</div>
+
+<!-- center -->
+<div class="container center">
+
+	
+		<div class="panel">
+			<div class="banner">
+				<ul>
+					<li><a href="product.html"><img src="/Public/img/index/banner1.png" /></a></li>
+					<li><a href="product.html"><img src="/Public/img/index/banner2.png" /></a></li>
+					<li><a href="product.html"><img src="/Public/img/index/banner3.png" /></a></li>
+					<li><a href="product.html"><img src="/Public/img/index/banner4.png" /></a></li>
+				</ul>
+			</div>
+			<!-- "新品上市" START -->
+			<div class="new_product">
+				<p class="title"><img src="/Public/img/index/sfbt1.png"></p>
+				<div class="flex-list-box">
+					<dl class="products-list">
+						<a href="/Product/index/id/8.html">
+								<dd>
+									<p><img src="http://oie0g68sd.bkt.clouddn.com/Uploads_2017-01-02_586a0ecce7718.png"></p>
+									<p class="paid">445.00付款</p>
+									<p class="price">¥：423.00.00</p>
+									<p>武夷山茶叶500g散装乌龙茶>
+								</dd>
+							</a><a href="/Product/index/id/7.html">
+								<dd>
+									<p><img src="http://oie0g68sd.bkt.clouddn.com/Uploads_2017-01-02_586a0ecce7718.png"></p>
+									<p class="paid">999.00付款</p>
+									<p class="price">¥：455.00.00</p>
+									<p>武夷山茶叶500g散装乌龙茶>
+								</dd>
+							</a><a href="/Product/index/id/6.html">
+								<dd>
+									<p><img src="http://oie0g68sd.bkt.clouddn.com/Uploads_2017-01-02_586a0fd701842.png"></p>
+									<p class="paid">55.00付款</p>
+									<p class="price">¥：23.00.00</p>
+									<p>武夷山茶叶500g散装乌龙茶>
+								</dd>
+							</a><a href="/Product/index/id/5.html">
+								<dd>
+									<p><img src="http://oie0g68sd.bkt.clouddn.com/Uploads_2017-01-02_586a0fd701842.png"></p>
+									<p class="paid">87.00付款</p>
+									<p class="price">¥：46.00.00</p>
+									<p>武夷山茶叶500g散装乌龙茶>
+								</dd>
+							</a>					</dl>
+				</div>
+			</div>
+			<!-- "所有商品" START -->
+			<div class="all_product">
+				<p class="title"><img src="/Public/img/index/sfbt2.png"></p>
+				<div class="flex-list-box">
+					<dl class="products-list">
+
+						<a href="/Product/index/id/1.html">
+								<dd>
+									<p><img src="http://oie0g68sd.bkt.clouddn.com/Uploads_2017-01-02_586a0fd701842.png"></p>
+									<p class="paid">299.00付款</p>
+									<p class="price">¥：99.00.00</p>
+									<p>武夷山茶叶500g散装乌龙茶>
+								</dd>
+							</a><a href="/Product/index/id/2.html">
+								<dd>
+									<p><img src="http://oie0g68sd.bkt.clouddn.com/Uploads_2017-01-02_586a0fd701842.png"></p>
+									<p class="paid">299.00付款</p>
+									<p class="price">¥：97.00.00</p>
+									<p>武夷山茶叶500g散装乌龙茶>
+								</dd>
+							</a><a href="/Product/index/id/3.html">
+								<dd>
+									<p><img src="http://oie0g68sd.bkt.clouddn.com/Uploads_2017-01-02_586a0fd701842.png"></p>
+									<p class="paid">55.00付款</p>
+									<p class="price">¥：23.00.00</p>
+									<p>武夷山茶叶500g散装乌龙茶>
+								</dd>
+							</a><a href="/Product/index/id/4.html">
+								<dd>
+									<p><img src="http://oie0g68sd.bkt.clouddn.com/Uploads_2017-01-02_586a0fd701842.png"></p>
+									<p class="paid">44.00付款</p>
+									<p class="price">¥：23.00.00</p>
+									<p>武夷山茶叶500g散装乌龙茶>
+								</dd>
+							</a><a href="/Product/index/id/5.html">
+								<dd>
+									<p><img src="http://oie0g68sd.bkt.clouddn.com/Uploads_2017-01-02_586a0fd701842.png"></p>
+									<p class="paid">87.00付款</p>
+									<p class="price">¥：46.00.00</p>
+									<p>武夷山茶叶500g散装乌龙茶>
+								</dd>
+							</a><a href="/Product/index/id/6.html">
+								<dd>
+									<p><img src="http://oie0g68sd.bkt.clouddn.com/Uploads_2017-01-02_586a0fd701842.png"></p>
+									<p class="paid">55.00付款</p>
+									<p class="price">¥：23.00.00</p>
+									<p>武夷山茶叶500g散装乌龙茶>
+								</dd>
+							</a><a href="/Product/index/id/7.html">
+								<dd>
+									<p><img src="http://oie0g68sd.bkt.clouddn.com/Uploads_2017-01-02_586a0ecce7718.png"></p>
+									<p class="paid">999.00付款</p>
+									<p class="price">¥：455.00.00</p>
+									<p>武夷山茶叶500g散装乌龙茶>
+								</dd>
+							</a><a href="/Product/index/id/8.html">
+								<dd>
+									<p><img src="http://oie0g68sd.bkt.clouddn.com/Uploads_2017-01-02_586a0ecce7718.png"></p>
+									<p class="paid">445.00付款</p>
+									<p class="price">¥：423.00.00</p>
+									<p>武夷山茶叶500g散装乌龙茶>
+								</dd>
+							</a>
+					</dl>
+				</div>
+			</div>
+			<!-- "所有商品" END -->
+			<!-- "get小技能" START -->
+			<div class="tcommon">
+				<p class="title"><img src="/Public/img/index/sybt3.png"></p>
+				<div class="flex-list-box">
+					<dl class="products-list">
+						<dd><p class="title2">茶的常识</p>
+							<ul>
+											<a href="/Index/tcommon/id/1.html">
+												<li>污垢是什么</li>
+											</a>
+										</ul><ul>
+											<a href="/Index/tcommon/id/2.html">
+												<li>污垢是什么</li>
+											</a>
+										</ul><ul>
+											<a href="/Index/tcommon/id/3.html">
+												<li>茶水温度</li>
+											</a>
+										</ul>							</dd><dd><p class="title2">茶的常识</p>
+							<ul>
+											<a href="/Index/tcommon/id/6.html">
+												<li>追朔历史</li>
+											</a>
+										</ul>							</dd><dd><p class="title2">抹茶周刊</p>
+							<ul>
+											<a href="/Index/tcommon/id/5.html">
+												<li>每周之茶</li>
+											</a>
+										</ul><ul>
+											<a href="/Index/tcommon/id/7.html">
+												<li>helloe  world</li>
+											</a>
+										</ul>							</dd><dd><p class="title2">茶的文化</p>
+							<ul>
+											<a href="/Index/tcommon/id/4.html">
+												<li>茶叶颜色</li>
+											</a>
+										</ul><ul>
+											<a href="/Index/tcommon/id/8.html">
+												<li>aa</li>
+											</a>
+										</ul>							</dd>
+					</dl>
+				</div>
+			</div>
+			<!-- "get小技能" END -->
+			<!-- "多快好省" START -->
+			<div class="VFGC">
+				<p class="title"></p>
+				<div class="flex-list-box">
+					<dl>
+						<dd>
+							<img src="/Public/img/index/syfw1.png">
+						</dd>
+						<dd>
+							<img src="/Public/img/index/syfw2.png">
+						</dd>
+						<dd>
+							<img src="/Public/img/index/syfw3.png">
+						</dd>
+						<dd>
+							<img src="/Public/img/index/syfw4.png">
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!-- "多快好省" END -->
+		</div>
+
+	
+	<!-- banner START -->
+
+	<!-- banner END -->
+
+	<!-- "新品上市" END -->
+
+
+
+</div>
+
+<!-- footer -->
+
+	<div class="container footer">
+	<div class="panel cfooter">
+		<div class="f_top">
+			<div class="t_left">
+				<p>源码时代商城-出售源码时代周边产品，学习资料</p>
+				<p>地&emsp;&emsp;址：&emsp;成都市高新区府城大道西段399号天府新谷1号楼6F</p>
+				<p>电&emsp;&emsp;话：&emsp;028-86261949</p>
+				<p>邮&emsp;&emsp;箱：&emsp;yuandaima@itsource.cn</p>
+				<p>2006-2016成都源代码教育咨询有限公司 版权所有</p>
+				<p>
+					<a href="http://www.miitbeian.gov.cn" target="_blank">蜀ICP备14030149号-1</a>
+				</p>
+			</div>
+			<div class="t_right">
+				<div class="footer_right_wx">
+					<img alt="源码时代" src="http://www.itsource.cn//Public/img/new3/weixin.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--描述：百度分享  -->
+	<script>
+		window._bd_share_config = {
+			"common": {
+				"bdSnsKey": {},
+				"bdText": "源码时代，专业的Java、PHP、UI、Web前端培训！",
+				"bdMini": "1",
+				"bdMiniList": false,
+				"bdPic": "http://www.itsource.cn/images/new/wx.png",
+				"bdStyle": "0",
+				"bdSize": "24"
+			},
+			"slide": {
+				"type": "slide",
+				"bdImg": "0",
+				"bdPos": "left",
+				"bdTop": "100"
+			}
+		};
+		with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+	</script>
+</div>
+
+
+</body>
+
+	<script type="text/javascript" src="js/basic.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".center .banner").unslider({
+				animation: 'fade',
+				autoplay: true,
+				arrows: false
+			});
+			$.getJSON('/Index/username.html',function(res){
+				console.log(res);
+				if(res){
+					$('#username').text(res);
+					$('#login').remove();
+				}else{
+					$('#logout').remove();
+				}
+			})
+		});
+	</script>
+
+
+</html>

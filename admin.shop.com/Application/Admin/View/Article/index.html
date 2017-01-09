@@ -1,0 +1,57 @@
+<extend name="Base:index" />
+<block name="content">
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-sm-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        XXXd列表
+                            <span class="tools pull-right">
+                                <a href="{:U(add)}" class="btn btn-success btn-link">新增</a>
+                            </span>
+                    </header>
+                    <div class="panel-body">
+                        <div class="adv-table">
+                            <select name='category' id="select">
+                                <volist name="res" id="re" >
+                                    <option value="{$re.id}"> {$re.name}</option>
+                                </volist>
+                            </select>
+                            <table  class="display table table-bordered table-striped" id="dynamic-table">
+                                <thead>
+                                <tr>
+                                    <th>文章标题</th>
+                                    <th>文章分类</th>
+                                    <th>文章简介</th>
+                                    <th>文章排名</th>
+                                    <th class="hidden-phone">操作</th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="rows" id="row">
+                                    <tr class="gradeX">
+                                        <td>{$row.name}</td>
+                                        <td>{$row.content}</td>
+                                        <td>{$row.intro}</td>
+                                        <td>{$row.sort}</td>
+                                        <td class="center hidden-phone">
+                                            <a href="{:U('edit',[id=>$row['id']])}">编辑</a>
+                                            |
+                                            <a href="{:U('remove',[id=>$row['id']])}">删除</a>
+                                        </td>
+
+                                    </tr>
+                                </volist>
+
+                                </tbody>
+
+                            </table>
+                            {$pages}
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</block>

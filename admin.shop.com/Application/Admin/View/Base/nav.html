@@ -1,0 +1,60 @@
+<li class="active"><a href="index.html"><i class="fa fa-home"></i> <span>管理首页</span></a></li>
+<li class="menu-list"><a href=""><i class="fa fa-laptop"></i> <span>商品管理</span></a>
+    <ul class="sub-menu-list">
+        <li><a href="lists.html"> 供应商管理</a></li>
+        <li><a href="{:U('Brand/index')}"> 品牌管理</a></li>
+        <li><a href="{:U('GoodsCategory/index')}"> 商品分类管理</a></li>
+        <li><a href="{:U('Goods/index')}"> 商品列表</a></li>
+        <li><a href="{:U('GoodsActive/index')}"> 商品活动</a></li>
+
+    </ul>
+</li>
+<li class="menu-list"><a href=""><i class="fa fa-book"></i> <span>订单管理</span></a>
+    <ul class="sub-menu-list">
+        <li><a href="general.html"> 订单列表</a></li>
+    </ul>
+</li>
+<li class="menu-list"><a href=""><i class="fa fa-cogs"></i> <span>管理</span></a>
+    <ul class="sub-menu-list">
+        <li><a href="{:U('Admin/index')}"> 管理员管理</a></li>
+        <li><a href="{:U('Permission/index')}"> 权限管理</a></li>
+        <li><a href="{:U('Role/index')}"> 角色管理</a></li>
+        <li><a href="{:U('Menu/index')}"> 菜单管理</a></li>
+        <li><a href="grids.html"> 会员列表</a></li>
+
+
+    </ul>
+</li>
+
+<li class="menu-list"><a href=""><i class="fa fa-envelope"></i> <span>文章管理</span></a>
+    <ul class="sub-menu-list">
+        <li><a href="{:U('Article/article')}"> 文章分类管理</a></li>
+        <li><a href="{:U('Article/index')}"> 文章列表</a></li>
+    </ul>
+</li>
+
+<li class="menu-list"><a href=""><i class="fa fa-tasks"></i> <span>系统设置</span></a>
+    <ul class="sub-menu-list">
+        <li><a href="form_layouts.html"> 网站基本设置</a></li>
+        <li><a href="form_advanced_components.html"> 支付管理</a></li>
+        <li><a href="form_wizard.html"> 活动管理</a></li>
+    </ul>
+</li>
+
+
+
+
+
+<foreach name='nav_menus' item='top_nav'>
+    <eq name='top_nav.level' value='1'>
+        <li class="menu-list"><a href=""> <span>{$top_nav.name}</span></a>
+            <ul class="sub-menu-list">
+                <foreach name='nav_menus' item='sub_nav'>
+                    <eq name='sub_nav.parent_id' value='$top_nav["id"]'>
+                        <li><a href="{:U($sub_nav['path'])}"> {$sub_nav.name}</a></li>
+                    </eq>
+                </foreach>
+            </ul>
+        </li>
+    </eq>
+</foreach>

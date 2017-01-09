@@ -1,0 +1,964 @@
+[ 2017-01-03T09:35:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-01-03T09:35:46+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-03T09:35:49+08:00 ] 127.0.0.1 /Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0360s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Admin\Model\MenuModel.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T09:35:49+08:00 ] 127.0.0.1 /Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Admin\Model\MenuModel.class.php 第 71 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T09:35:54+08:00 ] 127.0.0.1 /Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Admin\Model\MenuModel.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-03T09:35:58+08:00 ] 127.0.0.1 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0040s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Admin\Model\MenuModel.class.php 第 71 行.
+SQL: SELECT `id`,`username`,`password`,`salt` FROM `admin` WHERE `username` = 'admin'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\server\apache\htdocs\e-mall\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\server\apache\htdocs\e-mall\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `admin` SET `last_login_ip`='127001',`last_login_time`='1483407358' WHERE `username` = 'admin' [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT  p.id,p.path FROM `admin` INNER JOIN admin_role ar on ar.admin_id=id INNER JOIN role_permission as rp on ar.role_id=rp.role_id INNER JOIN permission p on p.id=permission_id  WHERE admin.id = '1'  [ RunTime:0.0860s ]
+
+[ 2017-01-03T09:35:58+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T09:35:58+08:00 ] 127.0.0.1 /Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-03T09:36:03+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:02:30+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.038002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.038002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:02:30+08:00 ] 127.0.0.1 /Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-03T15:02:31+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:02:31+08:00 ] 127.0.0.1 /Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-03T15:02:32+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:02:33+08:00 ] 127.0.0.1 /Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `article_category` WHERE ( status>-1 ) ORDER BY sort  [ RunTime:0.0520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant article_add - assumed 'article_add' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 165 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 190 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 190 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:02:33+08:00 ] 127.0.0.1 /Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-03T15:02:34+08:00 ] 127.0.0.1 /Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0710s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article_category` WHERE ( status>-1 ) ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant article_add - assumed 'article_add' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 165 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 190 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 190 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:02:34+08:00 ] 127.0.0.1 /Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-03T15:02:34+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-03T15:02:36+08:00 ] 127.0.0.1 /Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0100s ]
+SQL: SELECT a.*,c.content FROM `article` `a`,`article_detail` `c` WHERE ( c.article_id=a.id and  status>-1 ) ORDER BY sort  LIMIT 0,4   [ RunTime:0.0820s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `article_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 165 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-03T15:02:36+08:00 ] 127.0.0.1 /Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-03T15:02:36+08:00 ] 127.0.0.1 /Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT a.*,c.content FROM `article` `a`,`article_detail` `c` WHERE ( c.article_id=a.id and  status>-1 ) ORDER BY sort  LIMIT 0,4   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 165 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:02:37+08:00 ] 127.0.0.1 /Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`id` FROM `article_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 176 行.
+NOTIC: [8] Undefined index: sort D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 186 行.
+NOTIC: [8] Undefined index: intro D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:02:37+08:00 ] 127.0.0.1 /Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-03T15:02:38+08:00 ] 127.0.0.1 /Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0060s ]
+SQL: SELECT `name`,`id` FROM `article_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 176 行.
+NOTIC: [8] Undefined index: sort D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 186 行.
+NOTIC: [8] Undefined index: intro D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:03:33+08:00 ] 127.0.0.1 /img/tcommon/dt_frame.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:03:52+08:00 ] 127.0.0.1 /Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\server\apache\htdocs\e-mall\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\server\apache\htdocs\e-mall\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1264:Out of range value for column 'sort' at row 1
+ [ SQL语句 ] : INSERT INTO `article` (`name`,`article_category_id`,`sort`,`intro`,`status`,`inputtime`) VALUES ('helloe  world','3','234','','1','1483427031')
+ERR: 1264:Out of range value for column 'sort' at row 1
+ [ SQL语句 ] : INSERT INTO `article` (`name`,`article_category_id`,`sort`,`intro`,`status`,`inputtime`) VALUES ('helloe  world','3','234','','1','1483427031')
+
+[ 2017-01-03T15:03:59+08:00 ] 127.0.0.1 /Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-03T15:03:59+08:00 ] 127.0.0.1 /Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0060s ]
+SQL: SELECT `name`,`id` FROM `article_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 176 行.
+NOTIC: [8] Undefined index: sort D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 186 行.
+NOTIC: [8] Undefined index: intro D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:04:12+08:00 ] 127.0.0.1 /Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\server\apache\htdocs\e-mall\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\server\apache\htdocs\e-mall\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `article` (`name`,`article_category_id`,`sort`,`intro`,`status`,`inputtime`) VALUES ('helloe  world','3','23','','1','1483427051') [ RunTime:0.1940s ]
+SQL: SHOW COLUMNS FROM `article_detail` [ RunTime:0.0070s ]
+SQL: INSERT INTO `article_detail` (`article_id`,`content`) VALUES ('7','<p class=\"title\" style=\"margin-top: 0px; margin-bottom: 0px; padding: 40px 0px; border-color: rgb(159, 96, 61); border-width: 1px; font-size: 18px; font-family: 微软雅黑; text-align: center; white-space: normal;\">大红袍的来源</p><ul style=\"margin: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px; text-indent: 2em; font-family: 微软雅黑; font-size: 14px; white-space: normal;\" class=\" list-paddingleft-2\"><li><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">大红袍，产于福建武夷山，属乌龙茶，品质优异。中国特种名茶。其外形条索紧结，色泽绿褐鲜润，冲泡后汤色橙黄明亮，叶片红绿相间。品质最突出之处是香气馥郁有兰花香，香高而持久，“岩韵”明显。除与一般茶叶具有提神益思，消除疲劳、生津利尿、解热防暑、杀菌消炎、解毒防病、消食去腻、减肥健美等保健功能外，还具有防癌症、降血脂、抗衰老、等特殊功效。大红袍很耐冲泡，冲泡七、八次仍有香味。品饮“大红袍”茶，必须按“工夫茶”小壶小杯细品慢饮的程式，才能真正品尝到岩茶之颠的禅茶韵味。注重活 、甘、清、香。</p></li><li><p>名称来历</p></li><li><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">1385年，明朝洪武十八年，举子丁显上京赴考，路过武夷山时突然得病，腹痛难忍，巧遇天心永乐禅寺一和尚，和尚取其所藏茶叶泡与他喝，病痛即止。考中状元之后，前来致谢和尚，问及茶叶出处，得知后脱下大红袍绕茶丛三圈，将其披在茶树上，故得“大红袍”之名。状元用锡罐装取大红袍带回京城。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">状元回朝后，恰遇皇后得病，百医无效，便取出那罐茶叶献上，皇后饮后身体渐康，皇上大喜，赐红袍一件，命状元亲自前往九龙窠（读 kē）披在茶树上以示龙恩，同时派人看管，采制茶叶悉数进贡，不得私匿。从此，武夷岩茶大红袍就成为专供皇家享受的贡茶，大红袍的盛名也被世人传开。传说每年朝廷派来的官吏身穿大红袍，解袍挂在贡茶的树上，因此被称为大红袍。</p></li><li><p>储存方式</p></li><li><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">大红袍茶叶吸附性强，又易吸收异味，在加上茶叶的香味成分大都是经过在加工而形成的，所以较不稳定，极容易自然发散或氧化变质，因此建议在保存拆封过的茶叶时使用以下几种方法：</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">综上所述，大红袍保存最好不要使用玻璃罐、瓷罐、木盒或药罐，因为这些器具具有透光、不防潮、易碎的缺点。最好使用干燥的罐子或冰箱保存。</p></li><ol style=\"padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\" class=\" list-paddingleft-2\"><li><p>利用干燥箱贮存：因为干燥箱温度稳定，也隔绝空气，将茶叶放在干燥箱中贮存不会潮湿或氧化。</p></li><li><p>利用热水瓶贮存：将热水瓶整理干净，再将要贮存存的茶叶倒入瓶内，塞紧塞子存放。</p></li><li><p>利用冰箱贮存：要维持茶叶的新鲜与香味，最好低温贮存，尤其是较细嫩的茶叶如龙井、碧螺春、黄山毛峰更要冷藏。必须注意的是，保存茶叶的冰箱必须卫生、清洁、无异味，更不能保存茶叶以外的东西。</p></li><li><p>利用罐子贮存：先用小罐子分装少量茶叶，以便随时取用，其余的茶叶则用大罐子密封起来贮存。</p></li></ol><li><p>故事传说</p></li><li><p><br/></p></li><ol style=\"padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\" class=\" list-paddingleft-2\"><li><p>大红袍茶树生长在悬崖绝壁上，人莫能登，每年采茶时，寺僧以果为饵，驯猴子采之，所以有人称之为“猴采茶”。</p></li><li><p>大红袍茶树高十丈，叶大如掌，生长在峭壁上，风吹叶坠，寺僧拾制为茶，能治百病。</p></li><li><p>大红袍茶树为神仙所栽，寺僧每于元旦焚香虔诚礼拜，泡少许供佛前，茶能自顾，有窃之者立即腹痛，非育之勿能愈，盖以为神仙所栽。</p></li><li><p>大红袍茶树受过皇封，御赐其名，当地县令于每年春季皆亲临九龙窠，将身披红袍脱下盖在茶树上，然后顶礼朝拜，在香烟缭绕中众人齐声高喊：茶发芽！茶发 芽！待红袍揭下时茶树果然发芽！茶芽红艳如染。</p></li><li><p>勘婆婆的神茶</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">很早很早以前，武夷山慧苑岩住有一位勤劳善良的老婆婆，在大灾年间，有一天遇见一位病危的白发老人……急忙扶着老人进屋，把自己当饭吃的野菜汤送到老人手里……救活了老人，老人感恩，遂送了一龙头拐杖给老婆婆，又从口袋摸出二粒种子，交代用拐杖在地里挖个坑，种下种子盖好土，落些水……而后老人飘然腾空而去……老婆婆依照老人的话，把种子种好，不久果真长出了茶树，人们惊叹为神仙所赐的神茶 后来却被当官的知道，可因没能采到、喝到神仙茶恼羞成怒，把茶树连根铲除……老婆婆为此哭了、病倒了，有一天老婆婆拄着拐杖刚出门，就看见几个男人正扛着·树根走过来，老婆婆把拐杖放在树根上，谁知龙头拐杖忽然变成了一片红云，载着那树根在空中打了三个圈，冉冉飞去，飞进了九龙窠，落在半山腰……第二年长出了茶树……以后茶树发了，长成三株。这就是最早的三株大红袍的来历。</p></li><li><p>水金龟的传说</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">据传该茶树原长在天心岩杜葛寨下。一日大雨倾盆，峰顶有棵茶树被大水冲至牛栏坑半岩石凹处，兰谷岩主就势砌石培土以蓄之。这棵茶树与众不同，枝条纵横交错，形似龟背上的花纹，且绿叶浓密，油光发亮，像只大金龟，故命名为水金龟。</p></li></ol></ul><p><br/></p>') [ RunTime:0.0700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:04:13+08:00 ] 127.0.0.1 /Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`id` FROM `article_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 176 行.
+NOTIC: [8] Undefined index: sort D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 186 行.
+NOTIC: [8] Undefined index: intro D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:04:13+08:00 ] 127.0.0.1 /Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-03T15:04:13+08:00 ] 127.0.0.1 /Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`id` FROM `article_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 176 行.
+NOTIC: [8] Undefined index: sort D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 186 行.
+NOTIC: [8] Undefined index: intro D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:13:33+08:00 ] 127.0.0.1 /Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SELECT a.*,c.content FROM `article` `a`,`article_detail` `c` WHERE ( c.article_id=a.id and  status>-1 ) ORDER BY sort  LIMIT 0,4   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `article_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 165 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:13:33+08:00 ] 127.0.0.1 /Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-03T15:13:33+08:00 ] 127.0.0.1 /Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SELECT a.*,c.content FROM `article` `a`,`article_detail` `c` WHERE ( c.article_id=a.id and  status>-1 ) ORDER BY sort  LIMIT 0,4   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `article_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 165 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 191 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-03T15:13:34+08:00 ] 127.0.0.1 /Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`id` FROM `article_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 176 行.
+NOTIC: [8] Undefined index: sort D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 186 行.
+NOTIC: [8] Undefined index: intro D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:13:34+08:00 ] 127.0.0.1 /Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-03T15:13:34+08:00 ] 127.0.0.1 /Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`id` FROM `article_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 176 行.
+NOTIC: [8] Undefined index: sort D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 186 行.
+NOTIC: [8] Undefined index: intro D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:13:46+08:00 ] 127.0.0.1 /img/tcommon/dt_frame.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-03T15:14:22+08:00 ] 127.0.0.1 /Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\server\apache\htdocs\e-mall\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\server\apache\htdocs\e-mall\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `article` (`name`,`article_category_id`,`sort`,`intro`,`status`,`inputtime`) VALUES ('aa','4','3','','1','1483427662') [ RunTime:0.1610s ]
+SQL: SHOW COLUMNS FROM `article_detail` [ RunTime:0.0080s ]
+SQL: INSERT INTO `article_detail` (`article_id`,`content`) VALUES ('8','<p class=\"title\" style=\"margin-top: 0px; margin-bottom: 0px; padding: 40px 0px; border-color: rgb(159, 96, 61); border-width: 1px; font-size: 18px; font-family: 微软雅黑; text-align: center; white-space: normal;\">大红袍的来源</p><ul style=\"margin: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px; text-indent: 2em; font-family: 微软雅黑; font-size: 14px; white-space: normal;\" class=\" list-paddingleft-2\"><li><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">大红袍，产于福建武夷山，属乌龙茶，品质优异。中国特种名茶。其外形条索紧结，色泽绿褐鲜润，冲泡后汤色橙黄明亮，叶片红绿相间。品质最突出之处是香气馥郁有兰花香，香高而持久，“岩韵”明显。除与一般茶叶具有提神益思，消除疲劳、生津利尿、解热防暑、杀菌消炎、解毒防病、消食去腻、减肥健美等保健功能外，还具有防癌症、降血脂、抗衰老、等特殊功效。大红袍很耐冲泡，冲泡七、八次仍有香味。品饮“大红袍”茶，必须按“工夫茶”小壶小杯细品慢饮的程式，才能真正品尝到岩茶之颠的禅茶韵味。注重活 、甘、清、香。</p></li><li><p>名称来历</p></li><li><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">1385年，明朝洪武十八年，举子丁显上京赴考，路过武夷山时突然得病，腹痛难忍，巧遇天心永乐禅寺一和尚，和尚取其所藏茶叶泡与他喝，病痛即止。考中状元之后，前来致谢和尚，问及茶叶出处，得知后脱下大红袍绕茶丛三圈，将其披在茶树上，故得“大红袍”之名。状元用锡罐装取大红袍带回京城。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">状元回朝后，恰遇皇后得病，百医无效，便取出那罐茶叶献上，皇后饮后身体渐康，皇上大喜，赐红袍一件，命状元亲自前往九龙窠（读 kē）披在茶树上以示龙恩，同时派人看管，采制茶叶悉数进贡，不得私匿。从此，武夷岩茶大红袍就成为专供皇家享受的贡茶，大红袍的盛名也被世人传开。传说每年朝廷派来的官吏身穿大红袍，解袍挂在贡茶的树上，因此被称为大红袍。</p></li><li><p>储存方式</p></li><li><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">大红袍茶叶吸附性强，又易吸收异味，在加上茶叶的香味成分大都是经过在加工而形成的，所以较不稳定，极容易自然发散或氧化变质，因此建议在保存拆封过的茶叶时使用以下几种方法：</p><ol style=\"padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\" class=\" list-paddingleft-2\"><li><p>利用干燥箱贮存：因为干燥箱温度稳定，也隔绝空气，将茶叶放在干燥箱中贮存不会潮湿或氧化。</p></li><li><p>利用热水瓶贮存：将热水瓶整理干净，再将要贮存存的茶叶倒入瓶内，塞紧塞子存放。</p></li><li><p>利用冰箱贮存：要维持茶叶的新鲜与香味，最好低温贮存，尤其是较细嫩的茶叶如龙井、碧螺春、黄山毛峰更要冷藏。必须注意的是，保存茶叶的冰箱必须卫生、清洁、无异味，更不能保存茶叶以外的东西。</p></li><li><p>利用罐子贮存：先用小罐子分装少量茶叶，以便随时取用，其余的茶叶则用大罐子密封起来贮存。</p></li></ol><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">综上所述，大红袍保存最好不要使用玻璃罐、瓷罐、木盒或药罐，因为这些器具具有透光、不防潮、易碎的缺点。最好使用干燥的罐子或冰箱保存。</p></li><li><p>故事传说</p></li><li><ol style=\"padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\" class=\" list-paddingleft-2\"><li><p>大红袍茶树生长在悬崖绝壁上，人莫能登，每年采茶时，寺僧以果为饵，驯猴子采之，所以有人称之为“猴采茶”。</p></li><li><p>大红袍茶树高十丈，叶大如掌，生长在峭壁上，风吹叶坠，寺僧拾制为茶，能治百病。</p></li><li><p>大红袍茶树为神仙所栽，寺僧每于元旦焚香虔诚礼拜，泡少许供佛前，茶能自顾，有窃之者立即腹痛，非育之勿能愈，盖以为神仙所栽。</p></li><li><p>大红袍茶树受过皇封，御赐其名，当地县令于每年春季皆亲临九龙窠，将身披红袍脱下盖在茶树上，然后顶礼朝拜，在香烟缭绕中众人齐声高喊：茶发芽！茶发 芽！待红袍揭下时茶树果然发芽！茶芽红艳如染。</p></li><li><p>勘婆婆的神茶</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">很早很早以前，武夷山慧苑岩住有一位勤劳善良的老婆婆，在大灾年间，有一天遇见一位病危的白发老人……急忙扶着老人进屋，把自己当饭吃的野菜汤送到老人手里……救活了老人，老人感恩，遂送了一龙头拐杖给老婆婆，又从口袋摸出二粒种子，交代用拐杖在地里挖个坑，种下种子盖好土，落些水……而后老人飘然腾空而去……老婆婆依照老人的话，把种子种好，不久果真长出了茶树，人们惊叹为神仙所赐的神茶 后来却被当官的知道，可因没能采到、喝到神仙茶恼羞成怒，把茶树连根铲除……老婆婆为此哭了、病倒了，有一天老婆婆拄着拐杖刚出门，就看见几个男人正扛着·树根走过来，老婆婆把拐杖放在树根上，谁知龙头拐杖忽然变成了一片红云，载着那树根在空中打了三个圈，冉冉飞去，飞进了九龙窠，落在半山腰……第二年长出了茶树……以后茶树发了，长成三株。这就是最早的三株大红袍的来历。</p></li><li><p>水金龟的传说</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; border-color: rgb(159, 96, 61); border-width: 1px;\">据传该茶树原长在天心岩杜葛寨下。一日大雨倾盆，峰顶有棵茶树被大水冲至牛栏坑半岩石凹处，兰谷岩主就势砌石培土以蓄之。这棵茶树与众不同，枝条纵横交错，形似龟背上的花纹，且绿叶浓密，油光发亮，像只大金龟，故命名为水金龟。</p></li></ol></li></ul><p><br/></p>') [ RunTime:0.0610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-03T15:14:23+08:00 ] 127.0.0.1 /Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`id` FROM `article_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 176 行.
+NOTIC: [8] Undefined index: sort D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 186 行.
+NOTIC: [8] Undefined index: intro D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-03T15:14:23+08:00 ] 127.0.0.1 /Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-03T15:14:23+08:00 ] 127.0.0.1 /Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LogingBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`id` FROM `article_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 176 行.
+NOTIC: [8] Undefined index: sort D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 186 行.
+NOTIC: [8] Undefined index: intro D:\server\apache\htdocs\e-mall\admin.shop.com\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+

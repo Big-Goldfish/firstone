@@ -1,0 +1,61 @@
+<extend name="Base:index" />
+<block name="content">
+    <script src="__UEDITOR__/ueditor.config.js"></script>
+    <script src="__UEDITOR__/ueditor.all.js"></script>
+    <script type="text/javascript">
+        var ue = UE.getEditor('container');
+    </script>
+    <section class="wrapper">
+        <!-- page start-->
+
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Basic Forms
+                    </header>
+                    <div class="panel-body">
+                        <form role="form" action="{:U('add')}" method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="exampleInputName">文章主题</label>
+                                <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="请输入品牌名称" value='{$row.name}'/>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputIntro">文章分类</label>
+                                <select name="article_category_id">
+                                    <volist name="rows" id="row">
+                                    <option value="{$row.id}">{$row.name}</option>
+                                    </volist>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputSort">排序</label>
+                                <input class=" form-control" id="exampleInputSort" name="sort" type="text"  placeholder="请输入排序数字,数字越小越靠前"  value='{$row.sort}'/>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputIntro">文章简介</label>
+                                <textarea class="form-control " id="exampleInputIntro" name="intro" placeholder="请输入品牌简介">{$row.intro}</textarea>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="status" value="1" id='status'> 显示
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">文章详细内容</label>
+                                <textarea id="container" name="content"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary"> 创建 </button>
+                        </form>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+
+
+</block>

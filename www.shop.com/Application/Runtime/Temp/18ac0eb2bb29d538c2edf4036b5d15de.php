@@ -1,0 +1,3 @@
+<?php
+//000000000500a:4:{i:0;a:6:{s:2:"id";s:1:"1";s:4:"name";s:12:"茶的常识";s:5:"intro";s:0:"";s:6:"status";s:2:"-1";s:4:"sort";s:1:"1";s:7:"is_help";N;}i:1;a:6:{s:2:"id";s:1:"2";s:4:"name";s:12:"茶的常识";s:5:"intro";s:0:"";s:6:"status";s:1:"1";s:4:"sort";s:1:"1";s:7:"is_help";N;}i:2;a:6:{s:2:"id";s:1:"3";s:4:"name";s:12:"抹茶周刊";s:5:"intro";s:0:"";s:6:"status";s:1:"1";s:4:"sort";s:1:"2";s:7:"is_help";N;}i:3;a:6:{s:2:"id";s:1:"4";s:4:"name";s:12:"茶的文化";s:5:"intro";s:0:"";s:6:"status";s:1:"1";s:4:"sort";s:2:"34";s:7:"is_help";N;}}
+?>

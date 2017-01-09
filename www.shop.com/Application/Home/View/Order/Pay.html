@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+            欢迎来到微信支付   您需要支付 {$re[0].price}
+            <volist name="res" id="re">
+                <tr>
+                    <td>
+                        <img src="{$re.logo}">
+                        <ul>
+
+                            <li>{$re.goods_name}</li>
+                        </ul>
+                    </td>
+                    <td>￥：{$re.goods_price}</td>
+                    <td>{$re.amount}</td>
+
+                    <td>{$re.status}</td>
+                </tr>
+            </volist>
+            <img src="{:U('Qr/index',['text'=>$pay_infos])}">
+</body>
+</html>
